@@ -5,6 +5,15 @@ go 1.19
 require github.com/cli/go-gh/v2 v2.0.1
 
 require (
+	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
+	github.com/mattn/go-colorable v0.1.13 // indirect
+	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
+	golang.org/x/text v0.7.0 // indirect
+)
+
+require (
+	github.com/AlecAivazis/survey/v2 v2.3.6
+	github.com/cli/go-gh v1.2.1
 	github.com/cli/safeexec v1.0.0 // indirect
 	github.com/cli/shurcooL-graphql v0.0.3 // indirect
 	github.com/henvic/httpretty v0.0.6 // indirect
